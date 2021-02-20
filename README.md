@@ -2,6 +2,7 @@
 How to remove public directory laravel/lumen
 
 <br>
+
 ### Version :monocle_face:
 php artisan --version
 
