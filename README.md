@@ -5,6 +5,7 @@ How to remove public directory laravel/lumen
 ### Version :monocle_face:
 php artisan --version
 <br>
+
 ```
 Laravel Framework Lumen (8.2.1) (Laravel Components ^8.0)
 ```
