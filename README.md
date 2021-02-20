@@ -1,2 +1,2 @@
-# Laralve-Lumen-Remove-Public-Directory
+# Laravel-Lumen-Remove-Public-Directory
 How to removepublic directory laravel/lumen
