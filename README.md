@@ -4,6 +4,7 @@ How to removepublic directory laravel/lumen
 <br>
 ### Version :monocle_face:
 php artisan --version
+
 ```
 Laravel Framework Lumen (8.2.1) (Laravel Components ^8.0)
 ```
@@ -14,6 +15,7 @@ When we first install the lumen, the default folder/route is set to public. ```h
 
 # Step 1:
 We move the .htaccess and index.php files in the public folder to the main directory.
+<br>
 
 # Step 2:
 Change index.php
@@ -24,9 +26,11 @@ to
 ```
 $app = require __DIR__.'/bootstrap/app.php';
 ```
+<br>
 
 # Step 3:
 create file ```home.blade.php``` in resources/views/ 
+<br>
 
 # Step 4:
 add this code in routes/web.php
@@ -35,5 +39,6 @@ $router->get('/', function () {
     return view('home');
 });
 ```
+<br>
 
 ### :partying_face: :ok_hand: Done. now the main project directory is not public but root directory. http://example.com/
